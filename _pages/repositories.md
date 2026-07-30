@@ -1,8 +1,14 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Software
+description: >-
+  Below are open-source libraries I have contributed to or maintain.
+  Additional code and experiments are on
+  <a href='https://github.com/ThoreGerlach'
+    target='_blank'
+    rel='noopener noreferrer'
+    style='color: var(--global-theme-color);'>GitHub</a>.
 nav: true
 nav_order: 4
 ---
