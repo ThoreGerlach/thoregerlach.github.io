@@ -240,7 +240,8 @@ exclude:
   - migrations/
   - vendor
   # pages not used on my website
-  - _pages/teaching.md
+  # - _pages/teaching.md
+  # - _pages/contact.md, information for students
 keep_files:
   - CNAME
   - .nojekyll
