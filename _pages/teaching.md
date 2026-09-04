@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+---
+
 ## University of Bonn
 *2022 – 2025*
 

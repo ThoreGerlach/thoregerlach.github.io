@@ -2,24 +2,28 @@
 layout: page
 permalink: /service/
 title: Service
-description: Academic service, conference and workshop organization, reviewing, and outreach.
+description: Conference and workshop organization, reviewing, and outreach.
 nav: true
 nav_order: 7
 ---
 
+---
+
 ## Organization
 
-### IEEE International Conference on Big Data 2026
+*2026*
+
+#### IEEE International Conference on Big Data
 
 **Workshop Organizer**
 [Fourth Workshop on Large Language and Foundation Models](https://appliedmachinelearning-lab.github.io/wllfm2026/)
 
-### SPAICE 2026: AI in and for Space
+#### SPAICE 2026: AI in and for Space
 
 **Conference Organizer**
 [Third edition of the European Space Agency's SPAICE Conference](https://spaice.esa.int/2026/)
 
-### The Genetic and Evolutionary Computation Conference (GECCO) 2026
+#### The Genetic and Evolutionary Computation Conference (GECCO)
 
 **Challenge Organizer**
 [ACT Space Optimization Competition (SpOC) 4: Space Logistics](https://www.esa.int/gsp/ACT/news/spoc-2026/)
@@ -41,28 +45,24 @@ nav_order: 7
 
 ## Outreach & Writing
 
-### Lamarr Institute
-
-[Preparing for the Quantum Age with the IAIS Evo Annealer](https://lamarr-institute.org/blog/evo-annealer/)
-November 2022
+*2024*
 
 [qubolite: A Toolbox for Working with QUBO](https://lamarr-institute.org/blog/qubolite-qubo/)
-January 2024
+
+*2022*
+
+[Preparing for the Quantum Age with the IAIS Evo Annealer](https://lamarr-institute.org/blog/evo-annealer/)
 
 ---
 
 ## Professional Service
 
-### DIN SPEC 91480
-
-*January 2023 – November 2024*
+*2024*
 
 **Consortium Member**
-[DIN SPEC 91480](https://www.dinmedia.de/en/technical-rule/din-spec-91480/384224855) — *Requirements and reference architecture for benchmarking quantum computers*.
+[DIN SPEC 91480](https://www.dinmedia.de/en/technical-rule/din-spec-91480/384224855): *Requirements and reference architecture for benchmarking quantum computers*.
 
-### LASER World of PHOTONICS — World of QUANTUM
-
-*April 2022*
+*2022*
 
 **Exhibitor**
 Presentation of [Evo Annealer / Digital Annealer technology](https://www.iais.fraunhofer.de/de/branchen-themen/branchen/industrie/quantum-readiness.html) for FPGA-based quantum-inspired optimization.
