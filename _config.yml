@@ -239,6 +239,8 @@ exclude:
   - gems/
   - migrations/
   - vendor
+  # pages not used on my website
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
