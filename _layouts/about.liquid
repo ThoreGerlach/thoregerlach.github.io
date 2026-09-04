@@ -1,0 +1,103 @@
+---
+layout: default
+---
+  
+<div id="about" class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    <div class="landing-viewport">
+
+  <div class="landing-about">
+    <!-- profile image -->
+    {% if page.profile %}
+      <!-- your existing profile block -->
+    {% endif %}
+
+    <div class="clearfix">
+      {{ content }}
+    </div>
+  </div>
+
+  {% if page.announcements and page.announcements.enabled %}
+    <div id="news" class="landing-news">
+      <h2>Latest News</h2>
+
+      <div class="landing-news-content">
+        {% include news.liquid limit=true %}
+      </div>
+    </div>
+  {% endif %}
+
+</div>
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <section id="publications" class="homepage-section">
+        <h2>Selected Publications</h2>
+
+        Selected publications are shown below. For a complete and up-to-date list, see
+        <a href='https://scholar.google.com/citations?user=thore-gerlach-4345a1215&user=fOSBqKkAAAAJ'
+            target='_blank'
+            rel='noopener noreferrer'
+            style='color: var(--global-theme-color);'>Google Scholar</a>.
+        {% include selected_papers.liquid %}
+      </section>
+    {% endif %}
+    
+    <!-- Full publications -->
+    {% comment %}
+    <section id="publications" class="homepage-section">
+      <h2>Full Publications</h2>
+      {% include sections/publications.liquid %}
+    </section>
+    {% endcomment %}
+
+    <!-- Awards -->
+    <section id="awards" class="homepage-section">
+      <h2>Awards, Scholarships & Funding</h2>
+      {% include sections/awards.liquid %}
+    </section>
+
+    <!-- Service -->
+    <section id="service" class="homepage-section">
+      {% include sections/service.liquid %}
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching" class="homepage-section">
+      {% include sections/teaching.liquid %}
+    </section>
+
+    <!-- Software -->
+     <section id="software" class="homepage-section">
+      {% include sections/software.liquid %}
+    </section>
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+</div>
