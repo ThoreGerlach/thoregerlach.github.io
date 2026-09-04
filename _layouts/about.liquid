@@ -22,6 +22,26 @@ layout: default
     <!-- profile image -->
     {% if page.profile %}
       <!-- your existing profile block -->
+       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
     {% endif %}
 
     <div class="clearfix">
@@ -33,9 +53,23 @@ layout: default
     <div id="news" class="landing-news">
       <h2>Latest News</h2>
 
-      <div class="landing-news-content">
-        {% include news.liquid limit=true %}
-      </div>
+    <div class="landing-news-content">
+      {% include news.liquid limit=true %}
+    </div>
+
+    <button
+      class="news-expand-button"
+      type="button"
+      aria-expanded="false"
+      onclick="
+        const card = this.closest('.landing-news');
+        const expanded = card.classList.toggle('expanded');
+        this.setAttribute('aria-expanded', expanded);
+        this.textContent = expanded ? 'Show less' : 'Show more';
+      "
+    >
+      Show more
+    </button>
     </div>
   {% endif %}
 
