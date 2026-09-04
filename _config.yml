@@ -242,6 +242,7 @@ exclude:
   # pages not used on my website
   # - _pages/teaching.md
   # - _pages/contact.md, information for students
+  # - _pages/research.md, information about own research
 keep_files:
   - CNAME
   - .nojekyll

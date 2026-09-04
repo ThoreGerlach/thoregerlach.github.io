@@ -4,65 +4,109 @@ permalink: /service/
 title: Service
 description: Conference and workshop organization, reviewing, and outreach.
 nav: true
-nav_order: 7
+nav_order: 4
 ---
 
----
+## Academic Service
 
-## Organization
+<div class="service-grid">
 
-*2026*
+<div class="service-card">
+  <div class="service-category">Workshop Organization</div>
+  <div class="service-title">
+    <a href="https://appliedmachinelearning-lab.github.io/wllfm2026/">
+      Large Language and Foundation Models @ IEEE Big Data 2026
+    </a>
+  </div>
+  <div class="service-description">
+    Workshop Organizer for the Fourth Workshop on Large Language and Foundation Models.
+  </div>
+</div>
 
-#### IEEE International Conference on Big Data
+<div class="service-card">
+  <div class="service-category">Conference Organization</div>
+  <div class="service-title">
+    <a href="https://spaice.esa.int/2026/">
+      SPAICE 2026: AI in and for Space
+    </a>
+  </div>
+  <div class="service-description">
+    Conference Organizer for the third edition of the European Space Agency's SPAICE Conference.
+  </div>
+</div>
 
-**Workshop Organizer**
-[Fourth Workshop on Large Language and Foundation Models](https://appliedmachinelearning-lab.github.io/wllfm2026/)
+<div class="service-card">
+  <div class="service-category">Challenge Organization</div>
+  <div class="service-title">
+    <a href="https://www.esa.int/gsp/ACT/news/spoc-2026/">
+      ACT Space Optimization Competition (SpOC) 4
+    </a>
+  </div>
+  <div class="service-description">
+    Challenge Organizer for the Space Logistics competition at GECCO 2026.
+  </div>
+</div>
 
-#### SPAICE 2026: AI in and for Space
+<div class="service-card">
+  <div class="service-category">Conference & Journal Reviewing</div>
+  <div class="service-title">Top Tier Venues in Machine Learning & Quantum Computing</div>
+  <div class="service-description">
+    ICML, NeurIPS, AAAI, ICLR, IDA, SPAICE, Mach. Learn., QAI, QMI, and more.
+  </div>
+</div>
 
-**Conference Organizer**
-[Third edition of the European Space Agency's SPAICE Conference](https://spaice.esa.int/2026/)
+<div class="service-card">
+  <div class="service-category">Standardization</div>
+  <div class="service-title">
+    <a href="https://www.dinmedia.de/en/technical-rule/din-spec-91480/384224855">
+      DIN SPEC 91480
+    </a>
+  </div>
+  <div class="service-description">
+    Consortium Member for the development of requirements and reference architectures for benchmarking quantum computers.
+  </div>
+</div>
 
-#### The Genetic and Evolutionary Computation Conference (GECCO)
-
-**Challenge Organizer**
-[ACT Space Optimization Competition (SpOC) 4: Space Logistics](https://www.esa.int/gsp/ACT/news/spoc-2026/)
-
----
-
-## Reviewing
-
-**Conference Reviewer**
-
-| Venue                                                         | Year |
-| ------------------------------------------------------------- | ---- |
-| International Conference on Machine Learning (ICML)           | 2026 |
-| Conference on Neural Information Processing Systems (NeurIPS) | 2026 |
-| AAAI Conference on Artificial Intelligence (AAAI)             | 2026 |
-| International Conference on Learning Representations (ICLR)   | 2026 |
-
----
+</div>
 
 ## Outreach & Writing
 
-*2024*
+<div class="service-grid">
 
-[qubolite: A Toolbox for Working with QUBO](https://lamarr-institute.org/blog/qubolite-qubo/)
+<div class="service-card">
+  <div class="service-category">Lamarr Blog · 2024</div>
+  <div class="service-title">
+    <a href="https://lamarr-institute.org/blog/qubolite-qubo/">
+      qubolite: A Toolbox for Working with QUBO
+    </a>
+  </div>
+  <div class="service-description">
+    Article introducing the open-source qubolite toolbox for quadratic unconstrained binary optimization.
+  </div>
+</div>
 
-*2022*
+<div class="service-card">
+  <div class="service-category">Lamarr Blog · 2022</div>
+  <div class="service-title">
+    <a href="https://lamarr-institute.org/blog/evo-annealer/">
+      Preparing for the Quantum Age with the IAIS Evo Annealer
+    </a>
+  </div>
+  <div class="service-description">
+    Article on FPGA-based quantum-inspired optimization with the IAIS Evo Annealer.
+  </div>
+</div>
 
-[Preparing for the Quantum Age with the IAIS Evo Annealer](https://lamarr-institute.org/blog/evo-annealer/)
+<div class="service-card">
+  <div class="service-category">Outreach</div>
+  <div class="service-title">
+    <a href="https://www.iais.fraunhofer.de/de/branchen-themen/branchen/industrie/quantum-readiness.html">
+      World of QUANTUM
+    </a>
+  </div>
+  <div class="service-description">
+    Exhibitor at LASER World of PHOTONICS 2022, presenting FPGA-based Evo Annealer / Digital Annealer technology.
+  </div>
+</div>
 
----
-
-## Professional Service
-
-*2024*
-
-**Consortium Member**
-[DIN SPEC 91480](https://www.dinmedia.de/en/technical-rule/din-spec-91480/384224855): *Requirements and reference architecture for benchmarking quantum computers*.
-
-*2022*
-
-**Exhibitor**
-Presentation of [Evo Annealer / Digital Annealer technology](https://www.iais.fraunhofer.de/de/branchen-themen/branchen/industrie/quantum-readiness.html) for FPGA-based quantum-inspired optimization.
+</div>

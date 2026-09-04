@@ -2,55 +2,75 @@
 layout: page
 permalink: /awards/
 title: Awards
-description: Awards, scholarships, fellowships, and research funding.
+description: Awards, scholarships, and research funding.
 nav: true
-nav_order: 8
+nav_order: 3
 ---
 
----
+<div class="awards-list">
 
-## Awards & Distinctions
+<div class="award-item">
+  <div class="award-year">2025</div>
+    <div class="award-icon">✈️</div>
+  <div class="award-content">
+    <div class="award-title">IEEE Computational Intelligence Society Travel Grant</div>
+    <div class="award-description">Travel grant for DSAA 2025.</div>
+  </div>
+</div>
 
-*2023*
+<div class="award-item">
+  <div class="award-year">2025</div>
+    <div class="award-icon">✈️</div>
+  <div class="award-content">
+    <div class="award-title">Argelander Travel Grant for Early-Career Researchers</div>
+    <div class="award-description">Travel grant for ICML 2025.</div>
+  </div>
+</div>
 
-[Winner of Thales International Quantum Hackathon](https://lamarr-institute.org/news/lamarr-scientists-win-international-quantum-hackathon/):
-FPGA chip design with quantum optimization
+<div class="award-item">
+  <div class="award-year">2025</div>
+  <div class="award-icon">⚛️</div>
+  <div class="award-content">
+    <div class="award-title">Heinrich Hertz Scholarship for International Research Exchange</div>
+    <div class="award-description">Scholarship supporting a research visit at CERN.</div>
+  </div>
+</div>
 
-*2021*
+<div class="award-item">
+  <div class="award-year">2025</div>
+  <div class="award-icon">⚛️</div>
+  <div class="award-content">
+    <div class="award-title">INQA Exchange Visit Funding</div>
+    <div class="award-description">Research funding for a research visit at CERN.</div>
+  </div>
+</div>
 
-**Best paper award** at International Conference on Information Fusion (FUSION):
-Knowledge Gradient for Policy Rollout Algorithms.
+<div class="award-item">
+  <div class="award-year">2025</div>
+    <div class="award-icon">💻</div>
+  <div class="award-content">
+    <div class="award-title">D-Wave Leap Quantum LaunchPad</div>
+    <div class="award-description">Competitive access to D-Wave quantum processors and hybrid solvers.</div>
+  </div>
+</div>
 
----
+<div class="award-item">
+  <div class="award-year">2023</div>
+    <div class="award-icon">🏆</div>
+  <div class="award-content">
+    <div class="award-title">Winner — Thales International Quantum Hackathon</div>
+    <div class="award-description">FPGA chip design with quantum optimization.</div>
+  </div>
+</div>
 
-## Scholarships & Fellowships
+<div class="award-item">
+  <div class="award-year">2021</div>
+    <div class="award-icon">🏆</div>
+  <div class="award-content">
+    <div class="award-title">Best Paper Award — FUSION 2021</div>
+    <div class="award-description">Knowledge Gradient for Policy Rollout Algorithms.</div>
+  </div>
+</div>
 
-*2025*
+</div>
 
-[Heinrich Hertz Scholarship for International Research Exchange](https://www.heinrich-hertz-stiftung.de/):
-Scholarship supporting a research visit at **CERN**.
-
----
-
-## Research & Travel Grants
-
-*2025*
-
-[Exchange Visit Funding](https://www.ucl.ac.uk/quantum/innovation/inqa/inqa-exchange-visit-funding)
-for **CERN** visit through the International Network on Quantum Annealing (INQA).
-
-
-[Argelander Travel Grant for Early-Career Researchers](https://www.uni-bonn.de/en/research-and-teaching/ecrs/during-your-doctorate/support/participation-international-conferences?set_language=en):
-Participation in the **International Conference on Machine Learning (ICML)**.
-
-[IEEE CIS Travel Grant](https://cis.ieee.org/activities/membership-activities/travel-grants): 
-Participation in the **International Conference on Data Science and Advanced Analytics (DSAA)**.
-
----
-
-## Research Access
-
-*2025*
-
-[D-Wave Quantum LaunchPad](https://www.dwavequantum.com/quantum-launchpad/):
-Competitive access to D-Wave quantum processing units and hybrid quantum-classical solvers.
