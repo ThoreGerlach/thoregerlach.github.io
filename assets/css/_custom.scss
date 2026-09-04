@@ -107,23 +107,10 @@ html:not([data-theme="dark"]) {
   --global-hover-color: #0b6f71;
 }
 
-html[data-theme="dark"] .service-card {
-  background: color-mix(
-    in srgb,
-    var(--global-theme-color) 7%,
-    var(--global-bg-color)
-  );
-}
-
-html[data-theme="dark"] .teaching-card {
-  background: color-mix(
-    in srgb,
-    var(--global-theme-color) 7%,
-    var(--global-bg-color)
-  );
-}
-
-html[data-theme="dark"] .publications-card {
+html[data-theme="dark"] .service-card,
+html[data-theme="dark"] .teaching-card,
+html[data-theme="dark"] .landing-news,
+html[data-theme="dark"] .selected-publications-grid ol.bibliography > li {
   background: color-mix(
     in srgb,
     var(--global-theme-color) 7%,
