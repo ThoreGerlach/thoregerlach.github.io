@@ -7,44 +7,66 @@ nav: true
 nav_order: 5
 ---
 
----
+## Teaching
 
-## University of Bonn
-*2022 – 2025*
+<div class="teaching-grid">
 
-### Teaching
+<div class="teaching-card">
+  <div class="teaching-meta">University of Bonn · Winter 2022, 2024</div>
+  <div class="teaching-title">Foundations of Quantum Computing</div>
+  <div class="teaching-role">Principal Teaching Assistant</div>
+</div>
 
-**Principal Teaching Assistant**
+<div class="teaching-card">
+  <div class="teaching-meta">University of Bonn · Summer 2023</div>
+  <div class="teaching-title">Quantum Computing Algorithms</div>
+  <div class="teaching-role">Principal Teaching Assistant</div>
+</div>
 
-| Course | Term |
-| --- | --- |
-| Foundations of Quantum Computing | Winter 2022, 2024 |
-| Quantum Computing Algorithms | Summer 2023 |
-| Foundations of Machine Learning | Winter 2023 |
-| Reinforcement Learning | Summer 2024 |
+<div class="teaching-card">
+  <div class="teaching-meta">University of Bonn · Winter 2023</div>
+  <div class="teaching-title">Foundations of Machine Learning</div>
+  <div class="teaching-role">Principal Teaching Assistant</div>
+</div>
 
-### Supervision
+<div class="teaching-card">
+  <div class="teaching-meta">University of Bonn · Summer 2024</div>
+  <div class="teaching-title">Reinforcement Learning</div>
+  <div class="teaching-role">Principal Teaching Assistant</div>
+</div>
 
-**Master's Thesis**
+<div class="teaching-card teaching-card-wide">
+  <div class="teaching-meta">Fraunhofer IAIS · 2023–2025</div>
+  <div class="teaching-title">
+    <a href="https://www.bigdata-ai.fraunhofer.de/de/data-scientist/schulungssuche/certified-data-scientist-specialized-QML1.html">
+      Certified Data Scientist – Specialized in Quantum Machine Learning
+    </a>
+  </div>
+  <div class="teaching-role">Development and delivery of certified professional training</div>
+</div>
 
-*Reinforcement Learning for Quantum Circuit Transpilation*  
-Winter 2024
+</div>
 
----
+## Supervision
 
-## Fraunhofer IAIS
-*2023 – 2025*
+<div class="supervision-list">
 
-### Professional Training
+<div class="supervision-item">
+  <div class="supervision-meta">University of Bonn · Winter 2024</div>
+  <div>
+    <strong>Master's Thesis</strong><br>
+    <em>Reinforcement Learning for Quantum Circuit Transpilation</em>
+  </div>
+</div>
 
-**Development and delivery of certified training course**
+<div class="supervision-item">
+  <div class="supervision-meta">Fraunhofer IAIS · 2023–2025</div>
+  <div>
+    <strong>Student Research Assistants</strong><br>
+    Supervision of research projects in quantum optimization, reinforcement learning, and quantum computing education.
+  </div>
+</div>
 
-[Certified Data Scientist – Specialized in Quantum Machine Learning](https://www.bigdata-ai.fraunhofer.de/de/data-scientist/schulungssuche/certified-data-scientist-specialized-QML1.html)
+</div>
 
-### Student Supervision
 
-| Research Area | Period |
-| --- | --- |
-| Quantum Optimization | Apr 2023 – Mar 2025 |
-| Reinforcement Learning | Apr 2024 – Mar 2025 |
-| Quantum Computing Education | Apr 2023 – Mar 2024 |
