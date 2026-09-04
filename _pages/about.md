@@ -23,9 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Internal Research Fellow (Postdoc) in the Advanced Concepts Team at ESA working on fast, efficient, interpretable and error-robust machine learning models for spacecraft.
+Internal Research Fellow (Postdoc) in the Advanced Concepts Team at ESA working on fast, efficient, interpretable and robust machine learning models for spacecraft.
 
-I completed my PhD at the University of Bonn in the [Machine Learning and Artifical Intelligence Lab](https://www.mlai.cs.uni-bonn.de/en) under the supervision of [Christian Bauckhage](https://lamarr-institute.org/de/person/prof-dr-christian-bauckhage/) and [Stefan Wrobel](https://lamarr-institute.org/de/person/stefan-wrobel/). During that time I was also working at [Fraunhofer IAIS](https://www.iais.fraunhofer.de/) and part of the [LAMARR institute](https://lamarr-institute.org/).
+I completed my PhD at the University of Bonn in the [Machine Learning and Artificial Intelligence Lab](https://www.mlai.cs.uni-bonn.de/en) under supervision of [Christian Bauckhage](https://lamarr-institute.org/de/person/prof-dr-christian-bauckhage/) and [Stefan Wrobel](https://lamarr-institute.org/de/person/stefan-wrobel/). Meanwhile I was also working at [Fraunhofer IAIS](https://www.iais.fraunhofer.de/) and part of the [LAMARR institute](https://lamarr-institute.org/).
 
 My research lies at the intersection of machine learning, combinatorial optimization, and hardware-aware computing. I develop algorithms tailored to their underlying hardware, ranging from quantum computers to efficient logic-based neural networks. My work combines practical algorithm design with rigorous theoretical analysis.
 

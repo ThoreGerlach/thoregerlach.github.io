@@ -2,9 +2,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-
+  min-height: calc(92svh - 4.5rem);
   align-items: start;
-  padding-top: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.landing-about .post-header {
+  margin-bottom: 4rem;
 }
 
 .landing-news {
@@ -23,7 +28,7 @@
     var(--global-theme-color) 4%,
     var(--global-bg-color)
   );
-  transform: translateY(-7rem);
+  transform: translateY(1rem);
 }
 
 .landing-news h2 {
@@ -103,6 +108,22 @@ html:not([data-theme="dark"]) {
 }
 
 html[data-theme="dark"] .service-card {
+  background: color-mix(
+    in srgb,
+    var(--global-theme-color) 7%,
+    var(--global-bg-color)
+  );
+}
+
+html[data-theme="dark"] .teaching-card {
+  background: color-mix(
+    in srgb,
+    var(--global-theme-color) 7%,
+    var(--global-bg-color)
+  );
+}
+
+html[data-theme="dark"] .publications-card {
   background: color-mix(
     in srgb,
     var(--global-theme-color) 7%,
@@ -311,8 +332,20 @@ html[data-theme="dark"] .service-card {
   }
 }
 
+@media (max-width: 1050px) {
+  .teaching-card-wide {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 700px) {
+  .teaching-card-wide {
+    grid-column: auto;
+  }
+}
+
 .teaching-card-wide {
-  grid-column: 1 / -1;
+  grid-column: 2 / 4;
 }
 
 .supervision-list {
@@ -440,4 +473,33 @@ html[data-theme="dark"] .service-card {
   .teaching-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Larger circular profile image with accent background */
+.profile-accent {
+  width: 380px !important;
+  max-width: 42%;
+}
+
+.profile-accent figure {
+  position: relative;
+  margin: 0;
+  padding: 5px;
+
+  border-radius: 50%;
+
+  background: color-mix(
+    in srgb,
+    var(--global-theme-color) 25%,
+    var(--global-bg-color)
+  );
+}
+
+.profile-accent figure img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+  border-radius: 50% !important;
+  box-shadow: none !important;
 }

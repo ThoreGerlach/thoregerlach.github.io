@@ -3,6 +3,10 @@ layout: default
 ---
   
 <div id="about" class="post">
+  <article>
+    <div class="landing-viewport">
+
+  <div class="landing-about">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -15,14 +19,11 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
-    <div class="landing-viewport">
-
-  <div class="landing-about">
+  
     <!-- profile image -->
     {% if page.profile %}
       <!-- your existing profile block -->
-       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+       <div class="profile profile-accent float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
