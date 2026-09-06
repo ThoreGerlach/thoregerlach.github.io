@@ -7,6 +7,28 @@
   padding-top: 8rem;
   padding-bottom: 2rem;
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  background: var(--global-bg-color);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background:
+    url("/assets/img/background.svg")
+    center center / cover no-repeat;
+
+  opacity: 0.08;
+
+  pointer-events: none;
+  z-index: -1;
 }
 
 .landing-scroll {
@@ -147,6 +169,28 @@ html[data-theme="dark"] .selected-publications-grid ol.bibliography > li {
     in srgb,
     var(--global-theme-color) 7%,
     var(--global-bg-color)
+  );
+}
+
+.service-card,
+.teaching-card,
+.landing-news,
+.selected-publications-grid ol.bibliography > li {
+  background: color-mix(
+    in srgb,
+    var(--global-theme-color) 4%,
+    var(--global-bg-color) 96%
+  );
+}
+
+html[data-theme="dark"] .service-card,
+html[data-theme="dark"] .teaching-card,
+html[data-theme="dark"] .landing-news,
+html[data-theme="dark"] .selected-publications-grid ol.bibliography > li {
+  background: color-mix(
+    in srgb,
+    var(--global-theme-color) 7%,
+    var(--global-bg-color) 93%
   );
 }
 
@@ -294,14 +338,14 @@ html[data-theme="dark"] .selected-publications-grid ol.bibliography > li {
   border: 1px solid color-mix(
     in srgb,
     var(--global-theme-color) 18%,
-    var(--global-divider-color)
+    var(--global-divider-color) 
   );
   border-radius: 0.8rem;
 
   background: color-mix(
     in srgb,
     var(--global-theme-color) 5%,
-    var(--global-bg-color)
+    var(--global-bg-color) 95%
   );
 
   transition:
