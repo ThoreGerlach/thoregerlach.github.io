@@ -570,3 +570,22 @@ footer.sticky-bottom a:hover,
 footer.fixed-bottom a:hover {
   color: var(--global-hover-color) !important;
 }
+
+.repo {
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease;
+}
+
+.repo:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(
+    in srgb,
+    var(--global-theme-color) 45%,
+    var(--global-divider-color)
+  );
+  box-shadow: 0 0.45rem 1.1rem
+    color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+}
